@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.params=
-comment0.target=ButtonControl()
+comment0.target=ControlButtonAction()
 comment1.params=event
 comment1.target=void\ actionPerformed(java.awt.event.ActionEvent)
 comment2.params=event

@@ -8,9 +8,9 @@ import java.awt.*;
  * @version (1)
  * @date    ()
  */
-public class ButtonControl extends Main
+public class ControlButtonAction extends Main
 {
-    public ButtonControl()
+    public ControlButtonAction()
     {
         leftUpButton.addActionListener(new ActionListener()
         {
