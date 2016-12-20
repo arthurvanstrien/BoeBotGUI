@@ -8,7 +8,7 @@ import java.awt.*;
  * @version (1)
  * @date    ()
  */
-public class GUI extends JFrame
+public class Main extends JFrame
 {
     JPanel panel;
     JButton leftUpButton;
@@ -22,7 +22,7 @@ public class GUI extends JFrame
     JButton rightDownButton;
     JButton eightButton;
     
-    public GUI()
+    public Main()
     {
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         panel = new JPanel(new BorderLayout());
@@ -93,11 +93,6 @@ public class GUI extends JFrame
         rightDownButton = new JButton(rightDownImage);
         rightDownButton.setBackground(Color.WHITE);
         buttons.add(rightDownButton);
-        
-        ImageIcon eightImage = new ImageIcon("eight.png");
-        eightButton = new JButton(eightImage);
-        eightButton.setBackground(Color.WHITE);
-        buttons.add(eightButton);
  
         return buttons;
     }
