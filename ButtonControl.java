@@ -8,7 +8,7 @@ import java.awt.*;
  * @version (1)
  * @date    ()
  */
-public class ButtonControl extends GUI
+public class ButtonControl extends Main
 {
     public ButtonControl()
     {
@@ -77,14 +77,6 @@ public class ButtonControl extends GUI
         });
         
         rightDownButton.addActionListener(new ActionListener()
-        {
-            public void actionPerformed(ActionEvent event)
-            {
-               
-            }
-        });
-        
-        eightButton.addActionListener(new ActionListener()
         {
             public void actionPerformed(ActionEvent event)
             {
